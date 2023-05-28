@@ -15,32 +15,29 @@ public class Controller {
     private Scene scene;
     private Parent root;
 
-        @FXML
-        private Button authorization;
-
-        @FXML
-        private Button loginSIgnUpButton;
-
-   // ???public void setLoginSIgnUpButton(Button loginSIgnUpButton) {
-       //??? Parent root = FXMLLoader.Load(getClass().getResource("SignUp2.fxml"));
-
-    }
+    @FXML
+    private Button authorization;
 
     @FXML
-        void initialize(){
-           // loginSIgnUpButton.setOnAction(new loginSIgnUpButtonListener );
-            loginSIgnUpButton.setOnAction(actionEvent -> {
+    private Button loginSIgnUpButton;
 
-                    }
-            authorization.setOnAction(actionEvent -> {
-                System.out.println("Вы нажали на кнопку войти");
-            });
-        }
+    // ???public void setLoginSIgnUpButton(Button loginSIgnUpButton) {
+    //??? Parent root = FXMLLoader.Load(getClass().getResource("SignUp2.fxml"));
+
+
+    @FXML
+    void initialize() {
+        // loginSIgnUpButton.setOnAction(new loginSIgnUpButtonListener );
+        // loginSIgnUpButton.setOnAction(actionEvent -> {
+
+
+        authorization.setOnAction(actionEvent -> {
+            System.out.println("Вы нажали на кнопку войти");
+        });
+    }
+}
+
         //class loginSIgnUpButtonListener implements EventHandler<ActionEvent>{
             //@Override
            // public void handle(ActionEvent activeEvent) {
-
-
-
-            }
 

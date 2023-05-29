@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FAE3D9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.registr.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FAE3D9;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.registr.Controller">
    <children>
       <AnchorPane layoutY="108.0" prefHeight="392.0" prefWidth="800.0" style="-fx-background-color: #A6D0E4;">
          <children>
@@ -19,11 +19,11 @@
                </children>
             </AnchorPane>
          </children></AnchorPane>
-      <Button fx:id="authorization" layoutX="718.0" layoutY="37.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #d4a5a5;" text="SIGN IN" textAlignment="CENTER" textFill="#fffdfd" textOverrun="CLIP">
+      <Button fx:id="authorization" layoutX="685.0" layoutY="59.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #d4a5a5;" text="SIGN IN" textAlignment="CENTER" textFill="#fffdfd" textOverrun="CLIP">
          <font>
             <Font name="Candara Bold" size="14.0" />
          </font></Button>
-      <Button fx:id="loginSIgnUpButton" layoutX="652.0" layoutY="2.0" mnemonicParsing="false" onAction="#initialize" prefHeight="27.0" prefWidth="141.0" style="-fx-background-color: #F9FFEA; -fx-shape: #445;" text="CREATE ACCOUNT" textFill="#d4a5a5">
+      <Button fx:id="loginSIgnUpButton" layoutX="651.0" layoutY="24.0" mnemonicParsing="false" onAction="#initialize" prefHeight="27.0" prefWidth="141.0" style="-fx-background-color: #F9FFEA; -fx-shape: #445;" text="CREATE ACCOUNT" textFill="#d4a5a5">
          <font>
             <Font name="Candara Bold" size="14.0" />
          </font></Button>
